@@ -1,12 +1,15 @@
 {
   "InaccessibleFileHint": {
-    "message": "Stylus لا يستطيع الوصول الى بعض انواع الملفات ( ملفات .pdf و .json )"
+    "message": "لا يمكن لـ Stylus الوصول إلى بعض أنواع الملفات (مثل .pdf، .json)."
   },
   "addStyleLabel": {
     "message": "كتابة نمط جديد"
   },
   "addStyleTitle": {
     "message": "إضافة نمط"
+  },
+  "alphaChannel": {
+    "message": "العتامة"
   },
   "appliesAdd": {
     "message": "إضافة"
@@ -20,64 +23,284 @@
     }
   },
   "appliesDisplayTruncatedSuffix": {
-    "message": "و المزيد"
+    "message": "وغيرها"
   },
   "appliesDomainOption": {
-    "message": "عناوين URL في النطاق"
+    "message": "عناوين URL ضمن النطاق"
   },
   "appliesHelp": {
-    "message": "استخدم عناصر تحكم 'ينطبق على' لتقييد عناوين URL التي ينطبق عليها الرمز في هذا القسم."
+    "message": "استخدم عناصر التحكم في \"ينطبق على\" للحد من عناوين URL التي ينطبق عليها الكود في هذا القسم."
   },
   "appliesLabel": {
     "message": "ينطبق على"
   },
+  "appliesLineWidgetLabel": {
+    "message": "عرض معلومات \"ينطبق على\""
+  },
+  "appliesLineWidgetWarning": {
+    "message": "لا يعمل مع CSS المضغوط"
+  },
   "appliesRegexpOption": {
-    "message": "عناوين URL التي تطابق regexp"
+    "message": "عناوين URL المطابقة للتعبير النمطي"
   },
   "appliesRemove": {
     "message": "إزالة"
+  },
+  "appliesRemoveError": {
+    "message": "لا يمكن إزالة آخر إدخال في \"ينطبق على\""
   },
   "appliesSpecify": {
     "message": "تحديد"
   },
   "appliesToEverything": {
-    "message": "كل شيء"
+    "message": "الكل"
   },
   "appliesUrlOption": {
     "message": "عنوان URL"
   },
   "appliesUrlPrefixOption": {
-    "message": "عناوين URL البادئة بـ"
+    "message": "عناوين URL التي تبدأ بـ"
+  },
+  "applyAllUpdates": {
+    "message": "تطبيق جميع التحديثات"
+  },
+  "author": {
+    "message": "المؤلف"
+  },
+  "backupButtons": {
+    "message": "نسخ احتياطي"
+  },
+  "backupMessage": {
+    "message": "للاستيراد من ملف النسخ الاحتياطي، اسحب الملف وأفلته في هذه الصفحة أو انقر زر الاستيراد.\nلتصدير نسخة متوافقة مع إصدارات Stylus الأقدم من 1.5.18، انقر بزر الماوس الأيمن أو اضغط مع مفتاح Shift على زر التصدير."
+  },
+  "backupReminder": {
+    "message": "<b>قد تفقد الأنماط</b> بسبب انقطاع التيار الكهربائي، أو وجود خلل في المتصفح، أو خطأ بشري.<hr><b>احفظ نسخة احتياطية من بياناتك:</b> إما بتفعيل خيار \"المزامنة مع السحابة\" في الإعدادات، أو بالنقر يدويًا على زر التصدير بعد كل تعديل مهم، أو — ويفضّل — بإعداد نسخ احتياطي تلقائي باستخدام تطبيق مخصص."
+  },
+  "bckpInstStyles": {
+    "message": "تصدير الأنماط"
   },
   "checkAllUpdates": {
-    "message": "البحث عن تحديثات لكل الأنماط"
+    "message": "التحقق من وجود تحديثات لجميع الأنماط"
+  },
+  "checkAllUpdatesForce": {
+    "message": "التحقق مرة أخرى، لم أقم بتعديل أي أنماط!"
   },
   "checkForUpdate": {
-    "message": "البحث عن تحديث"
+    "message": "التحقق من وجود تحديث"
   },
   "checkingForUpdate": {
-    "message": "جارٍ البحث..."
+    "message": "جارٍ التحقق..."
+  },
+  "clickToUninstall": {
+    "message": "انقر لإلغاء التثبيت"
+  },
+  "cm_autoCloseBrackets": {
+    "message": "إغلاق الأقواس والعلامات الاقتباس تلقائيًا"
+  },
+  "cm_autoCloseBracketsTooltip": {
+    "message": "إضافة زوج الإغلاق تلقائيًا عند كتابة زوج الافتتاح من ()[]{}''\"\""
+  },
+  "cm_autocompleteOnTyping": {
+    "message": "الإكمال التلقائي أثناء الكتابة"
+  },
+  "cm_colorpicker": {
+    "message": "منتقي الألوان لألوان CSS"
+  },
+  "cm_indentWithTabs": {
+    "message": "استخدام علامات التبويب مع المسافة الذكية"
+  },
+  "cm_keyMap": {
+    "message": "تخطيط لوحة المفاتيح"
+  },
+  "cm_lineWrapping": {
+    "message": "التفاف الكلمات"
+  },
+  "cm_linter": {
+    "message": "مصحّح CSS"
+  },
+  "cm_matchHighlight": {
+    "message": "تمييز"
+  },
+  "cm_matchHighlightSelection": {
+    "message": "التحديد فقط"
+  },
+  "cm_matchHighlightToken": {
+    "message": "الكلمة تحت المؤشر"
+  },
+  "cm_resizeGripHint": {
+    "message": "نقر مزدوج لتكبير/استعادة الارتفاع"
+  },
+  "cm_selectByTokens": {
+    "message": "النقر المزدوج يحدد الرموز"
+  },
+  "cm_selectByTokensTooltip": {
+    "message": "أمثلة على الرموز: .foo-bar-2 #aabbcc 0.32 !important\nعند التعطيل: يتم تحديد الكلمات المفصولة بعلامات الترقيم."
+  },
+  "cm_smartIndent": {
+    "message": "استخدام المسافة الذكية"
+  },
+  "cm_tabSize": {
+    "message": "حجم علامة التبويب"
+  },
+  "cm_theme": {
+    "message": "السمة"
+  },
+  "cm_arrowKeysTraverse": {
+    "message": "مفاتيح الأسهم ↑↓ للتنقل بين الأقسام"
+  },
+  "colorpickerPaletteHint": {
+    "message": "انقر بزر الماوس الأيمن على لون لعرض مصادره"
+  },
+  "colorpickerSwitchFormatTooltip": {
+    "message": "تبديل التنسيقات: HEX ←→ RGB ←→ HSL.\nShift+نقر لعكس الاتجاه.\nأو عبر مفاتيح PgUp و PgDn."
+  },
+  "colorpickerTooltip": {
+    "message": "فتح منتقي الألوان"
+  },
+  "configOnChange": {
+    "message": "عند التغيير"
+  },
+  "configOnChangeTooltip": {
+    "message": "حفظ التغييرات وتطبيقها تلقائيًا"
+  },
+  "configureStyle": {
+    "message": "إعداد"
+  },
+  "configureStyleOnHomepage": {
+    "message": "الإعداد من الصفحة الرئيسية"
+  },
+  "confirmCancel": {
+    "message": "إلغاء"
+  },
+  "confirmClose": {
+    "message": "إغلاق"
+  },
+  "confirmDefault": {
+    "message": "استخدام الافتراضي"
   },
   "confirmDelete": {
     "message": "حذف"
   },
+  "confirmDiscardChanges": {
+    "message": "هل تريد تجاهل التغييرات؟"
+  },
+  "confirmNo": {
+    "message": "لا"
+  },
+  "confirmOK": {
+    "message": "موافق"
+  },
   "confirmSave": {
     "message": "حفظ"
   },
+  "confirmStop": {
+    "message": "إيقاف"
+  },
+  "confirmYes": {
+    "message": "نعم"
+  },
+  "connectingDropbox": {
+    "message": "جارٍ الاتصال بـ Dropbox..."
+  },
+  "connectingDropboxNotAllowed": {
+    "message": "الاتصال بـ Dropbox متاح فقط في التطبيقات المثبتة مباشرة من المتجر"
+  },
+  "copied": {
+    "message": "تم النسخ إلى الحافظة"
+  },
+  "copy": {
+    "message": "نسخ إلى الحافظة"
+  },
+  "customNameHint": {
+    "message": "أدخل اسمًا مخصصًا هنا لتغيير اسم النمط في الواجهة دون كسر التحديثات"
+  },
+  "customNameResetHint": {
+    "message": "التوقف عن استخدام الاسم المخصص والعودة إلى اسم النمط الأصلي"
+  },
+  "dateAbbrDay": {
+    "message": "$value$ي",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "dateAbbrHour": {
+    "message": "$value$س",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "dateAbbrMonth": {
+    "message": "$value$ش",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "dateAbbrYear": {
+    "message": "$value$ع",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "dateInstalled": {
+    "message": "تاريخ التثبيت"
+  },
+  "dateUpdated": {
+    "message": "تاريخ التحديث"
+  },
+  "dbError": {
+    "message": "حدث خطأ في قاعدة بيانات Stylus. هل تريد زيارة صفحة ويب تحتوي على حلول محتملة؟"
+  },
+  "defaultTheme": {
+    "message": "افتراضي"
+  },
   "deleteStyleConfirm": {
-    "message": "هل تريد بالتأكيد حذف هذا النمط؟"
+    "message": "هل أنت متأكد من أنك تريد حذف هذا النمط؟"
   },
   "deleteStyleLabel": {
     "message": "حذف"
   },
   "description": {
-    "message": "يمكنك تغيير نمط الويب باستخدام Stylus، وهي أداة لإدارة أنماط المستخدم. وتتيح Stylus لك بسهولة تثبيت المظاهر والأشكال الخارجية لكل من Google، وFacebook وYouTube وOrkut فضلاً عن الكثير جدًا من مواقع الويب الأخرى."
+    "message": "أعد تصميم الويب باستخدام Stylus، مدير الأنماط الخاص بالمستخدم. يتيح لك Stylus تثبيت السمات والواجهات لمواقع شهيرة بسهولة."
+  },
+  "disableAllStyles": {
+    "message": "إيقاف تشغيل جميع الأنماط"
+  },
+  "disableAllStylesOff": {
+    "message": "الأنماط معطّلة"
   },
   "disableStyleLabel": {
     "message": "تعطيل"
   },
+  "draftTitle": {
+    "message": "استعادة المسودة، تم إنشاؤها $date$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "draftAction": {
+    "message": "اختر 'نعم' لتحميل هذه المسودة أو 'لا' لتجاهلها."
+  },
+  "dragDropMessage": {
+    "message": "أفلت ملف النسخ الاحتياطي في أي مكان على هذه الصفحة للاستيراد."
+  },
+  "dragDropUsercssTabstrip": {
+    "message": "لتثبيت الملف، أفلته على شريط العلامات (المنطقة التي تظهر فيها عناوين العلامات)."
+  },
   "editDeleteText": {
     "message": "حذف"
+  },
+  "editGotoLine": {
+    "message": "الانتقال إلى السطر (أو السطر:العمود)"
   },
   "editStyleHeading": {
     "message": "تعديل النمط"
@@ -93,73 +316,1229 @@
       }
     }
   },
+  "editTargetsFirst": {
+    "message": "عرض المواقع المستهدفة قبل الكود"
+  },
+  "editorSettings": {
+    "message": "إعدادات المحرر"
+  },
+  "emptyCode": {
+    "message": "أقسام النمط لهذا العنوان فارغة"
+  },
   "enableStyleLabel": {
-    "message": "تمكين"
+    "message": "تفعيل"
+  },
+  "excludeStyleByDomainLabel": {
+    "message": "استبعاد النطاق الحالي"
+  },
+  "excludeStyleByUrlLabel": {
+    "message": "استبعاد عنوان URL الحالي"
+  },
+  "exportLabel": {
+    "message": "تصدير"
+  },
+  "exportCompatible": {
+    "message": "تصدير (وضع متوافق)"
+  },
+  "exportSavedSuccess": {
+    "message": "تم حفظ الملف بنجاح"
+  },
+  "externalFeedback": {
+    "message": "ملاحظات"
+  },
+  "externalHomepage": {
+    "message": "الصفحة الرئيسية"
+  },
+  "externalLink": {
+    "message": "رابط خارجي"
+  },
+  "externalSupport": {
+    "message": "الدعم"
+  },
+  "externalUsercssDocument": {
+    "message": "وثائق UserCSS"
+  },
+  "filteredStyles": {
+    "message": "$numShown$ معروضة من أصل $numTotal$",
+    "placeholders": {
+      "numShown": {
+        "content": "$1"
+      },
+      "numTotal": {
+        "content": "$2"
+      }
+    }
+  },
+  "filteredStylesAllHidden": {
+    "message": "لا تتطابق عوامل التصفية الحالية مع أي نمط"
+  },
+  "find": {
+    "message": "البحث عن أنماط"
+  },
+  "findStyles": {
+    "message": "البحث عن أنماط"
+  },
+  "findStylesOnline": {
+    "message": "انقر للبحث عن أنماط عبر الإنترنت."
+  },
+  "general": {
+    "message": "عام"
   },
   "genericAdd": {
     "message": "إضافة"
   },
+  "genericClone": {
+    "message": "نسخ"
+  },
+  "genericDescription": {
+    "message": "الوصف"
+  },
+  "genericDisabledLabel": {
+    "message": "معطّل"
+  },
   "genericEnabledLabel": {
-    "message": "ممكّن"
+    "message": "مفعّل"
+  },
+  "genericError": {
+    "message": "خطأ"
+  },
+  "genericHistoryLabel": {
+    "message": "السجل"
+  },
+  "genericMaximum": {
+    "message": "الحد الأقصى"
+  },
+  "genericMinimum": {
+    "message": "الحد الأدنى"
+  },
+  "genericNext": {
+    "message": "التالي"
+  },
+  "genericPrevious": {
+    "message": "السابق"
+  },
+  "genericResetLabel": {
+    "message": "إعادة تعيين"
+  },
+  "genericSavedMessage": {
+    "message": "تم الحفظ"
+  },
+  "genericSize": {
+    "message": "الحجم"
+  },
+  "genericTest": {
+    "message": "اختبار"
+  },
+  "genericTitle": {
+    "message": "العنوان"
+  },
+  "genericUnknown": {
+    "message": "غير معروف"
+  },
+  "gettingStyles": {
+    "message": "جارٍ جلب جميع الأنماط..."
+  },
+  "headerResizerHint": {
+    "message": "اضغط مع مفتاح Shift لتغيير الحجم فقط في هذا النوع من الواجهات (المحرر، المدير، المثبّت)"
   },
   "helpAlt": {
     "message": "مساعدة"
   },
+  "helpKeyMapCommand": {
+    "message": "اكتب اسم الأمر"
+  },
+  "helpKeyMapHotkey": {
+    "message": "اضغط على مفتاح الاختصار"
+  },
+  "hostDisabled": {
+    "message": "تم تعطيل هذا المضيف بسبب خلل في الإصدار الحالي من المتصفح المستخدم"
+  },
+  "importAppendLabel": {
+    "message": "إلحاق بالنمط"
+  },
+  "importAppendTooltip": {
+    "message": "إلحاق النمط المستورد بالنمط الحالي"
+  },
+  "importLabel": {
+    "message": "استيراد"
+  },
+  "importPreprocessor": {
+    "message": "النمط الذي يحتوي على <code>@preprocessor</code> لن يعمل في الوضع الكلاسيكي. يمكنك تبديل المحرر إلى وضع UserCSS: 1) افتح مدير الأنماط، 2) فعّل خانة \"كـ UserCSS\"، 3) انقر \"كتابة نمط جديد\"\nهل تريد الاستيراد الآن على أي حال؟"
+  },
+  "importPreprocessorTitle": {
+    "message": "مشكلة محتملة بسبب @preprocessor"
+  },
+  "importReplaceLabel": {
+    "message": "استبدال النمط"
+  },
+  "importReplaceTooltip": {
+    "message": "تجاهل محتوى النمط الحالي واستبداله بالنمط المستورد"
+  },
+  "importReportLegendAdded": {
+    "message": "تمت الإضافة"
+  },
+  "importReportLegendIdentical": {
+    "message": "تم تخطي المتطابق"
+  },
+  "importReportLegendInvalid": {
+    "message": "تم تخطي غير الصالح"
+  },
+  "importReportLegendUpdatedBoth": {
+    "message": "تم تحديث معلومات التعريف والكود"
+  },
+  "importReportLegendUpdatedCode": {
+    "message": "تم تحديث الكود"
+  },
+  "importReportLegendUpdatedMeta": {
+    "message": "تم تحديث معلومات التعريف"
+  },
+  "importReportTitle": {
+    "message": "تم الانتهاء من استيراد الأنماط"
+  },
+  "importReportUnchanged": {
+    "message": "لم يتم إجراء أي تغيير."
+  },
+  "importReportUndone": {
+    "message": "تم التراجع عن الأنماط"
+  },
+  "importReportUndoneTitle": {
+    "message": "تم التراجع عن الاستيراد"
+  },
+  "installButton": {
+    "message": "تثبيت النمط"
+  },
+  "installButtonInstalled": {
+    "message": "تم تثبيت النمط"
+  },
+  "installButtonReinstall": {
+    "message": "إعادة تثبيت النمط"
+  },
+  "installButtonUpdate": {
+    "message": "تحديث النمط"
+  },
   "installUpdate": {
     "message": "تثبيت التحديث"
+  },
+  "installUpdateFrom": {
+    "message": "حاليًا يتم تحديث النمط من $url$",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      }
+    }
+  },
+  "installUpdateFromLabel": {
+    "message": "التحقق من وجود تحديثات"
+  },
+  "license": {
+    "message": "الترخيص"
+  },
+  "linkGetHelp": {
+    "message": "الحصول على مساعدة"
+  },
+  "linkGetStyles": {
+    "message": "الحصول على أنماط"
+  },
+  "linkGetShareStyles": {
+    "message": "الحصول على أنماط ومشاركتها"
+  },
+  "linkStylusWiki": {
+    "message": "ويكي"
+  },
+  "linkTranslate": {
+    "message": "ترجمة"
+  },
+  "linterCSSLintIncompatible": {
+    "message": "CSSLint لا يدعم معالج $preprocessorname$",
+    "placeholders": {
+      "preprocessorname": {
+        "content": "$1"
+      }
+    }
+  },
+  "linterCSSLintSettings": {
+    "message": "(اضبط القاعدة كالتالي: 0 = معطّلة؛ 1 = تحذير؛ 2 = خطأ)"
+  },
+  "linterConfigPopupTitle": {
+    "message": "ضبط إعدادات قواعد $linter$",
+    "placeholders": {
+      "linter": {
+        "content": "$1"
+      }
+    }
+  },
+  "linterConfigTooltip": {
+    "message": "انقر لضبط هذا المصحّح"
+  },
+  "linterIssues": {
+    "message": "المشاكل"
+  },
+  "linterIssuesHelp": {
+    "message": "تم العثور على هذه المشاكل بواسطة $link$:",
+    "placeholders": {
+      "link": {
+        "content": "$1"
+      }
+    }
+  },
+  "linterJSONError": {
+    "message": "تنسيق JSON غير صالح"
+  },
+  "linterResetMessage": {
+    "message": "للتراجع عن إعادة التعيين العرضية، اضغط Ctrl-Z (أو Cmd-Z) في مربع النص"
+  },
+  "linterRulesLink": {
+    "message": "عرض القائمة الكاملة للقواعد"
+  },
+  "liveReloadAfterInstall": {
+    "message": "إعادة التحميل المباشر بعد التثبيت"
+  },
+  "liveReloadError": {
+    "message": "حدث خطأ أثناء مراقبة الملف"
+  },
+  "liveReloadInstallHint": {
+    "message": "ابقَ هذه العلامة مفتوحة لتحديث النمط تلقائيًا عند إجراء تعديلات خارجية."
+  },
+  "liveReloadInstallHintFF": {
+    "message": "ابقَ كلًا من هذه العلامة والعلامة الأصلية مفتوحتين لتحديث النمط تلقائيًا عند إجراء تعديلات خارجية."
+  },
+  "liveReloadLabel": {
+    "message": "إعادة التحميل المباشر"
+  },
+  "manageFavicons": {
+    "message": "أيقونات المواقع في عمود \"ينطبق على\""
+  },
+  "manageFaviconsGray": {
+    "message": "باهتة"
+  },
+  "manageFaviconsHelp": {
+    "message": "يستخدم Stylus خدمة خارجية https://icons.duckduckgo.com"
+  },
+  "manageFilters": {
+    "message": "عوامل التصفية"
   },
   "manageHeading": {
     "message": "الأنماط المثبتة"
   },
+  "manageMaxTargets": {
+    "message": "عدد عناصر \"ينطبق على\""
+  },
+  "manageMinColumnWidth": {
+    "message": "العرض الأدنى للعمود (بالبكسل؛ 9999 يعطل الوضع متعدد الأعمدة)"
+  },
+  "manageNewStyleAsUsercss": {
+    "message": "كـ UserCSS"
+  },
+  "manageNewUI": {
+    "message": "تخطيط جدولي"
+  },
+  "manageOnlyDisabled": {
+    "message": "الأنماط المعطّلة فقط"
+  },
+  "manageOnlyEnabled": {
+    "message": "الأنماط المفعّلة فقط"
+  },
+  "manageOnlyExternal": {
+    "message": "الأنماط الخارجية فقط"
+  },
+  "manageOnlyLocal": {
+    "message": "الأنماط المحلية فقط"
+  },
+  "manageOnlyLocalTooltip": {
+    "message": "(الأنماط غير المثبتة عبر صفحة userstyles.org)"
+  },
+  "manageOnlyNonUsercss": {
+    "message": "الأنماط غير UserCSS فقط"
+  },
+  "manageOnlyUpdates": {
+    "message": "الأنماط التي تحتوي على تحديثات أو مشاكل فقط"
+  },
+  "manageOnlyUsercss": {
+    "message": "أنماط UserCSS فقط"
+  },
+  "manageTitle": {
+    "message": "Stylus"
+  },
+  "masterSwitch": {
+    "message": "مفتاح رئيسي"
+  },
+  "menuShowBadge": {
+    "message": "عرض عدد الأنماط النشطة"
+  },
+  "meta_invalidCheckboxDefault": {
+    "message": "@var غير صالح: يجب أن تكون القيمة 0 أو 1"
+  },
+  "meta_invalidColor": {
+    "message": "@var لون غير صالح: $color$ ليس لونًا",
+    "placeholders": {
+      "color": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidNumber": {
+    "message": "يجب أن يكون رقمًا"
+  },
+  "meta_invalidRange": {
+    "message": "@var $type$ غير صالح: يجب أن تكون القيمة رقمًا أو مصفوفة",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidRangeDefault": {
+    "message": "@var $type$ غير صالح: القيمة الافتراضية فارغة",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidRangeMax": {
+    "message": "@var $type$ غير صالح: القيمة الافتراضية أكبر من الحد الأقصى",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidRangeMin": {
+    "message": "@var $type$ غير صالح: القيمة الافتراضية أقل من الحد الأدنى",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidRangeMultipleUnits": {
+    "message": "@var $type$ غير صالح: تم تحديد وحدات متعددة",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidRangeStep": {
+    "message": "@var $type$ غير صالح: القيمة ليست من مضاعفات الخطوة",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidRangeTooManyValues": {
+    "message": "@var $type$ غير صالح: تحتوي المصفوفة على عناصر كثيرة جدًّا",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidRangeUnits": {
+    "message": "@var $type$ غير صالح: '$units$' ليست وحدة صالحة",
+    "placeholders": {
+      "units": {
+        "content": "$2"
+      },
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidRangeValue": {
+    "message": "@var $type$ غير صالح: يجب أن تكون عناصر المصفوفة أرقامًا أو نصوصًا أو فارغة",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidSelect": {
+    "message": "@var select غير صالح: يجب أن تكون القيمة الافتراضية مصفوفة أو كائنًا"
+  },
+  "meta_invalidSelectEmptyOptions": {
+    "message": "@var select غير صالح: قائمة الخيارات فارغة"
+  },
+  "meta_invalidSelectLabel": {
+    "message": "@var select غير صالح: تسمية الخيار فارغة"
+  },
+  "meta_invalidSelectMultipleDefaults": {
+    "message": "@var select غير صالح: تم تحديد قيم افتراضية متعددة"
+  },
+  "meta_invalidSelectNameDuplicated": {
+    "message": "@var select غير صالح: اسم الخيار مكرر"
+  },
+  "meta_invalidSelectValue": {
+    "message": "@var select غير صالح: يجب أن تكون القيم داخل المصفوفة/الكائن نصوصًا"
+  },
+  "meta_invalidSelectValueMismatch": {
+    "message": "@var select غير صالح: القيمة غير موجودة في قائمة الخيارات"
+  },
+  "meta_invalidString": {
+    "message": "يجب أن يكون نصًا بين علامتي اقتباس"
+  },
+  "meta_invalidURLProtocol": {
+    "message": "بروتوكول URL غير صالح. يُسمح فقط بـ http و https: $protocol$",
+    "placeholders": {
+      "protocol": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_invalidVersion": {
+    "message": "رقم الإصدار غير صالح"
+  },
+  "meta_invalidWord": {
+    "message": "يجب أن يكون كلمة"
+  },
+  "meta_missingChar": {
+    "message": "يجب أن يحتوي على الأحرف: $chars$",
+    "placeholders": {
+      "chars": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_missingEOT": {
+    "message": "يجب أن يحتوي على بيانات EOT"
+  },
+  "meta_missingMandatory": {
+    "message": "بيانات التعريف الإلزامية مفقودة: $keys$",
+    "placeholders": {
+      "keys": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_unknownJSONLiteral": {
+    "message": "JSON غير صالح: $literal$ ليس قيمة JSON صالحة",
+    "placeholders": {
+      "literal": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_unknownMeta": {
+    "message": "بيان تعريف غير معروف: $key$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_unknownMetaTypo": {
+    "message": "هل تقصد @$keyOk$؟ بيانات تعريف غير معروفة: @$keyErr$",
+    "placeholders": {
+      "keyErr": {
+        "content": "$1"
+      },
+      "keyOk": {
+        "content": "$2"
+      }
+    }
+  },
+  "meta_unknownPreprocessor": {
+    "message": "@preprocessor غير معروف: $preprocessor$",
+    "placeholders": {
+      "preprocessor": {
+        "content": "$1"
+      }
+    }
+  },
+  "meta_unknownVarType": {
+    "message": "نوع @$varkey$ غير معروف: $vartype$",
+    "placeholders": {
+      "vartype": {
+        "content": "$2"
+      },
+      "varkey": {
+        "content": "$1"
+      }
+    }
+  },
+  "noFileToImport": {
+    "message": "للاستيراد، يجب تصدير الأنماط أولًا."
+  },
   "noStylesForSite": {
-    "message": "لم يتم تثبيت أي أنماط لموقع الويب هذا."
+    "message": "لا توجد أنماط مثبتة لهذا الموقع."
+  },
+  "numberedLine": {
+    "message": "السطر:"
   },
   "openManage": {
-    "message": "إدارة الأنماط المثبتة"
+    "message": "إدارة"
+  },
+  "openOptions": {
+    "message": "الإعدادات"
+  },
+  "optionCompactWidth": {
+    "message": "العرض الأقصى للنافذة لوضع الواجهة المدمجة (بالبكسل)"
+  },
+  "optionFOUC": {
+    "message": "هل يتم تطبيق الأنماط متأخرة جدًّا؟"
+  },
+  "optionFOUCMV2": {
+    "message": "فكّر في تفعيل \"<a>\"."
+  },
+  "optionFOUCMV3": {
+    "message": "فكّر في تفعيل \"<a>\" وزيادة \"<b>\"."
+  },
+  "optionKeepAlive": {
+    "message": "مدة تخزين الأنماط مؤقتًا"
+  },
+  "optionKeepAlive2": {
+    "message": "(بالدقائق، -1 = بلا حدود)"
+  },
+  "optionKeepAliveIdle": {
+    "message": "...حتى لو كان المتصفح غير نشط"
+  },
+  "optionKeepAliveNote": {
+    "message": "زِد القيمة إذا واجهت وميض المحتوى غير المصمم (FOUC) عند فتح صفحة بعد عدم التفاعل مع المتصفح لفترة.\n-1 = السلوك الافتراضي لـ ManifestV2 (بلا حدود).\n0 = السلوك الافتراضي لـ ManifestV3 (نصف دقيقة).\nيستهلك التخزين المؤقت 30 ميغابايت أو أكثر من الذاكرة، لكن إعادة إنشائه قد تستغرق وقتًا طويلاً وتسبب FOUC حسب الموقع، وسرعة الشبكة، وعدد الأنماط، وحجم الذاكرة، وأداء المعالج."
+  },
+  "optionsActions": {
+    "message": "إجراءات"
+  },
+  "optionsAdvanced": {
+    "message": "متقدم"
+  },
+  "optionsAdvancedContextDelete": {
+    "message": "إضافة 'حذف' في قائمة سياق المحرر"
+  },
+  "optionsAdvancedExposeIframes": {
+    "message": "إظهار الإطارات عبر HTML[stylus-iframe]"
+  },
+  "optionsAdvancedExposeIframesNote": {
+    "message": "يعرض نطاق الموقع الرئيسي في كل إطار.\nيتيح كتابة CSS خاص بالإطارات مثل:\nhtml[stylus-iframe$$=\"twitter.com\"] h1 { display:none }"
+  },
+  "optionsAdvancedExposeStyleName": {
+    "message": "إظهار اسم النمط"
+  },
+  "optionsAdvancedExposeStyleNameNote": {
+    "message": "يعرض اسم النمط في الصفحة لتسهيل تصحيح الأنماط في أدوات المطور. يُرجى إعادة تحميل العلامة لتطبيق الإعداد الجديد."
+  },
+  "optionsAdvancedNewStyleAsUsercss": {
+    "message": "كتابة نمط جديد كـ UserCSS"
+  },
+  "optionsAdvancedAutoSwitchSchemeNever": {
+    "message": "معطّل. يتم تجاهل إعداد الوضع الداكن/الفااتح في الأنماط."
+  },
+  "optionsAdvancedAutoSwitchSchemeBySystem": {
+    "message": "حسب تفضيل النظام"
+  },
+  "optionsAdvancedAutoSwitchSchemeByTime": {
+    "message": "حسب وقت الليل:"
+  },
+  "optionsAdvancedPatchCsp": {
+    "message": "تعديل <code>CSP</code> للسماح بموارد النمط"
+  },
+  "optionsAdvancedPatchCspNote": {
+    "message": "فعّل هذا الخيار إذا احتوت الأنماط على صور أو خطوط لا يتم تحميلها على المواقع ذات <code>CSP</code> الصارم (<code>Content-Security-Policy</code>).\nسيؤدي تفعيل هذا الخيار إلى تخفيف قيود <code>CSP</code>، مما يسمح بتحميل محتوى النمط الأساسي. هذا الخيار مخصص للمستخدمين المتقدمين الذين يفهمون التداعيات الأمنية المحتملة ويتحملون مسؤولية مراقبة المحتوى الذي يسمحون به. اقرأ عن هجمات CSS لمزيد من المعلومات.\nكما يُنصح بالانتباه إلى أن هذا الإعداد قد لا يُفعّل إذا قام امتداد آخر بتعديل استجابة الشبكة أولًا."
+  },
+  "optionsAdvancedStyleViaASS": {
+    "message": "تجاوز CSP 'style-src' عبر adoptedStyleSheets"
+  },
+  "optionsAdvancedStyleViaXhr": {
+    "message": "وضع الحقن الفوري"
+  },
+  "optionsAdvancedStyleViaXhrNote": {
+    "message": "فعّل هذا الخيار إذا واجهت وميض المحتوى غير المصمم (FOUC) أثناء التصفح، وهو ملحوظ بشكل خاص مع السمات الداكنة عند فتح صفحة.\nيستخدم هذا الخيار XMLHttpRequest المتزامن \"المهمل\" داخليًا للوصول إلى ذاكرة التخزين المؤقت للامتداد، أي أنه ليس طلب شبكة، لذا فإن تأثير الأداء ضئيل."
+  },
+  "optionsBadgeDisabled": {
+    "message": "لون الخلفية عند التعطيل"
+  },
+  "optionsBadgeNormal": {
+    "message": "لون الخلفية"
+  },
+  "optionsCheck": {
+    "message": "تحديث الأنماط"
+  },
+  "optionsCheckUpdate": {
+    "message": "التحقق من جميع التحديثات المتوفرة وتثبيتها"
+  },
+  "optionsCustomizeBadge": {
+    "message": "الشارة على أيقونة شريط الأدوات"
+  },
+  "optionsCustomizeIcon": {
+    "message": "أيقونة شريط الأدوات"
+  },
+  "optionsCustomizePopup": {
+    "message": "النافذة المنبثقة"
+  },
+  "optionsCustomizeSync": {
+    "message": "المزامنة مع السحابة"
+  },
+  "optionsCustomizeUpdate": {
+    "message": "التحديثات"
+  },
+  "optionsHeading": {
+    "message": "الإعدادات"
+  },
+  "optionsIconAuto": {
+    "message": "مطابقة الوضع الداكن/الفااتح"
+  },
+  "optionsIconDark": {
+    "message": "سمات المتصفح الداكنة"
+  },
+  "optionsIconLight": {
+    "message": "سمات المتصفح الفاتحة"
+  },
+  "optionsOpen": {
+    "message": "فتح"
+  },
+  "optionsOpenManager": {
+    "message": "إدارة الأنماط"
+  },
+  "optionsPopupWidth": {
+    "message": "عرض النافذة المنبثقة (بالبكسل)"
+  },
+  "optionsReset": {
+    "message": "إعادة تعيين الإعدادات إلى القيم الافتراضية"
+  },
+  "optionsResetButton": {
+    "message": "إعادة تعيين الإعدادات"
+  },
+  "optionsStylusThemes": {
+    "message": "انقر على أيقونة Stylus في شريط أدوات المتصفح على أي صفحة من Stylus بما في ذلك هذه الصفحة، ثم انقر 'البحث عن أنماط'"
+  },
+  "optionsSubheading": {
+    "message": "مزيد من الخيارات"
+  },
+  "optionsSyncConnect": {
+    "message": "اتصال"
+  },
+  "optionsSyncDisconnect": {
+    "message": "قطع الاتصال"
+  },
+  "optionsSyncLogin": {
+    "message": "تسجيل الدخول"
+  },
+  "optionsSyncNone": {
+    "message": "بلا"
+  },
+  "optionsSyncStatusConnected": {
+    "message": "متصل"
+  },
+  "optionsSyncStatusConnecting": {
+    "message": "جارٍ الاتصال..."
+  },
+  "optionsSyncStatusDisconnected": {
+    "message": "غير متصل"
+  },
+  "optionsSyncStatusDisconnecting": {
+    "message": "جارٍ قطع الاتصال..."
+  },
+  "optionsSyncStatusPull": {
+    "message": "جارٍ سحب النمط $loaded$ من أصل $total$",
+    "placeholders": {
+      "loaded": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "optionsSyncStatusPush": {
+    "message": "جارٍ دفع النمط $loaded$ من أصل $total$",
+    "placeholders": {
+      "loaded": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "optionsSyncUsername": {
+    "message": "اسم المستخدم"
+  },
+  "optionsSyncPassword": {
+    "message": "كلمة المرور"
   },
   "optionsSyncUrl": {
-    "message": "عنوان URL"
+    "message": "العنوان"
+  },
+  "optionsSyncStatusRelogin": {
+    "message": "انتهت صلاحية الجلسة، يُرجى تسجيل الدخول مجددًا."
+  },
+  "optionsSyncStatusSyncing": {
+    "message": "جارٍ المزامنة..."
+  },
+  "optionsSyncSyncNow": {
+    "message": "مزامنة الآن"
+  },
+  "optionsUpdateInterval": {
+    "message": "فترة التحديث التلقائي لأنماط المستخدم بالساعات (0 لتعطيل)"
+  },
+  "optionsUrlInstaller": {
+    "message": "فتح المثبّت عند الانتقال إلى عنوان .user.css"
+  },
+  "overwriteFileExport": {
+    "message": "هل تريد استبدال ملف موجود؟"
+  },
+  "paginationCurrent": {
+    "message": "الصفحة الحالية"
+  },
+  "paginationEstimated": {
+    "message": "عدد الصفحات التقديري"
+  },
+  "paginationNext": {
+    "message": "الصفحة التالية"
+  },
+  "paginationPrevious": {
+    "message": "الصفحة السابقة"
+  },
+  "paginationTotal": {
+    "message": "إجمالي الصفحات"
+  },
+  "parseUsercssError": {
+    "message": "فشل Stylus في تحليل UserCSS:"
+  },
+  "popupAutoResort": {
+    "message": "إعادة ترتيب الأنماط في النافذة المنبثقة بعد التبديل"
+  },
+  "popupBorders": {
+    "message": "إضافة حدود بيضاء على الجانبين"
+  },
+  "popupBordersTooltip": {
+    "message": "مفيد للسمات الداكنة في Chrome الجديد لأنه لم يعد يرسم الحدود الجانبية"
+  },
+  "popupHotkeysInfo": {
+    "message": "<1>-<9>, <0>, وأيضًا على لوحة الأرقام - تبديل النمط N (0 هو 10)\n<A>-<Z> تبديل أول نمط يبدأ اسمه بالحرف\n<Shift> يفتح المحرر بدلًا من التبديل\n<Numpad +> يفعّل الأنماط المدرجة\n<Numpad –> يعطّل الأنماط المدرجة\n<Numpad *> و <`> (العلامة العكسية) - تبديل الأنماط المفعّلة افتراضيًا؛ لا ينطبق على الأنماط المفعّلة لاحقًا أثناء فتح النافذة المنبثقة، لذا يمكنك استعادة التحديد الأولي بعد التجربة: عطّل الكل ثم شغّل <Numpad –> <Numpad *>\nمزيد من المعلومات على الويكي"
+  },
+  "popupHotkeysTooltip": {
+    "message": "انقر لعرض اختصارات لوحة المفاتيح المتاحة"
+  },
+  "popupManageSiteStyles": {
+    "message": "إدارة أنماط الموقع"
+  },
+  "popupManageTooltip": {
+    "message": "Shift+نقر أو نقر بزر الماوس الأيمن يفتح المدير مع الأنماط المطبقة على الموقع الحالي"
+  },
+  "popupMenuButtonTooltip": {
+    "message": "قائمة الإجراءات"
+  },
+  "popupOpenEditInPopup": {
+    "message": "...بدون شريط العناوين"
+  },
+  "popupOpenEditInWindow": {
+    "message": "فتح المحرر في نافذة جديدة"
+  },
+  "popupOpenEditInWindowTooltip": {
+    "message": "مفعّل أيضًا بفصل علامة المحرر عن نافذة المتصفح،\nومعطّل بإعادة إرفاق علامة المحرر الوحيدة إلى نافذة أخرى."
+  },
+  "popupStylesFirst": {
+    "message": "الأنماط قبل الأوامر"
+  },
+  "preferScheme": {
+    "message": "تفضيل الوضع الداكن/الفااتح"
+  },
+  "preferSchemeAlways": {
+    "message": "مُهمَل حاليًا (يتم تطبيق النمط دائمًا) لأن الوضع الداكن/الفااتح العام معطّل"
+  },
+  "preferSchemeDark": {
+    "message": "داكن"
+  },
+  "preferSchemeLight": {
+    "message": "فاتح"
+  },
+  "preferSchemeNone": {
+    "message": "بلا (يتم تطبيقه دائمًا)"
+  },
+  "prefShowBadge": {
+    "message": "عدد الأنماط النشطة للموقع الحالي"
+  },
+  "previewLabel": {
+    "message": "معاينة مباشرة"
+  },
+  "previewTooltip": {
+    "message": "يطبّق التغييرات مؤقتًا دون حفظ.\nاحفظ النمط لجعل التغييرات دائمة."
+  },
+  "publish": {
+    "message": "نشر"
+  },
+  "publishPush": {
+    "message": "دفع التحديث"
+  },
+  "publishReconnect": {
+    "message": "حاول قطع الاتصال ثم النشر مجددًا"
+  },
+  "publishRetry": {
+    "message": "لا يزال Stylus يحاول نشر هذا النمط، لكن يمكنك إعادة المحاولة إذا لم ترَ أي نشاط مصادقة أو نوافذ منبثقة. هل تريد إعادة المحاولة الآن؟"
+  },
+  "publishStyle": {
+    "message": "نشر النمط"
+  },
+  "publishUsw": {
+    "message": "باستخدام <userstyles.world>"
+  },
+  "readingStyles": {
+    "message": "جارٍ قراءة الأنماط..."
+  },
+  "reload": {
+    "message": "إعادة التحميل"
+  },
+  "replace": {
+    "message": "استبدال"
+  },
+  "replaceAll": {
+    "message": "استبدال الكل"
+  },
+  "replaceWith": {
+    "message": "استبدال بـ"
+  },
+  "restoreTemplate": {
+    "message": "استعادة القالب الافتراضي.\n(لن تتغير صفحات المحرر المفتوحة حاليًا.)"
+  },
+  "retrieveBckp": {
+    "message": "استيراد الأنماط"
+  },
+  "retrieveDropboxSync": {
+    "message": "استيراد من Dropbox"
+  },
+  "saveAsTemplate": {
+    "message": "حفظ كقالب"
+  },
+  "search": {
+    "message": "بحث"
+  },
+  "searchCaseSensitive": {
+    "message": "حساس لحالة الأحرف"
+  },
+  "searchGlobalStyles": {
+    "message": "البحث أيضًا في الأنماط العامة"
+  },
+  "searchGlobalStylesHint": {
+    "message": "يتضمن الأنماط التي تنطبق على جميع المواقع إذا احتوى الاسم على نص البحث أو الموقع الحالي"
+  },
+  "searchNumberOfResults": {
+    "message": "عدد التطابقات"
+  },
+  "searchNumberOfResults2": {
+    "message": "عدد التطابقات في الكود وقيم \"ينطبق على\""
+  },
+  "searchRegexp": {
+    "message": "استخدم صيغة /re/ للبحث بالتعبير النمطي"
+  },
+  "searchResultInstallCount": {
+    "message": "إجمالي التثبيتات"
+  },
+  "searchResultNoneFound": {
+    "message": "لم يتم العثور على أنماط لهذا الموقع."
+  },
+  "searchResultNotMatching": {
+    "message": "النمط مثبت لكنه لا ينطبق على عنوان URL الحالي."
+  },
+  "searchResultNotMatchingNote": {
+    "message": "حاول طلب المؤلف إضافة عنوان URL هذا.\nيمكنك أيضًا فتح النمط في مدير الأنماط وتعديله بنفسك،\nلكن اعلم أن ذلك يعطل التحديثات التلقائية لهذا النمط."
+  },
+  "searchResultRating": {
+    "message": "التقييم"
+  },
+  "searchResultUpdated": {
+    "message": "تم التحديث"
+  },
+  "searchResultWeeklyCount": {
+    "message": "التثبيتات الأسبوعية"
+  },
+  "searchStyleQueryHint": {
+    "message": "البحث في أسماء الأنماط (حساس لحالة الأحرف إذا استخدمت حرفًا كبيرًا):\nبعض الكلمات - جميع هذه الكلمات بأي ترتيب\n\"عبارة معينة\" - هذه العبارة بالضبط دون علامات الاقتباس\n/foo.*bar/i - تعبير نمطي بدون مسافات (استخدم \\s بدلًا من ذلك)"
+  },
+  "searchStylesAll": {
+    "message": "الكل"
+  },
+  "searchStylesCode": {
+    "message": "كود CSS"
+  },
+  "searchStylesHelp": {
+    "message": "</> أو مفتاح <Ctrl-F> يركّز حقل البحث.\nالوضع الافتراضي هو البحث النصي البسيط لجميع المصطلحات المفصولة بمسافات بأي ترتيب.\nالكلمات الدقيقة: ضع الاستعلام بين علامتي اقتباس مزدوجتين، مثال: <\".header ~ div\">\nالتعبيرات النمطية: أضف الشرطتين المائلتين والأعلام، مثال: </body.*?\\ba\\b/i>\n\"حسب العنوان\" في منتقي النطاق: يجد الأنماط التي تنطبق على عنوان URL محدد بالكامل مثل https://www.example.org/\n\"بيانات التعريف\" في منتقي النطاق: يبحث في الأسماء، ومواصفات \"ينطبق على\"، وعنوان التثبيت، وعنوان التحديث، وكتلة بيانات التعريف بأكملها لأنماط UserCSS."
+  },
+  "searchStylesMatchUrl": {
+    "message": "حسب العنوان"
+  },
+  "searchStylesMeta": {
+    "message": "بيانات التعريف"
+  },
+  "searchStylesName": {
+    "message": "الاسم"
   },
   "sectionAdd": {
     "message": "إضافة قسم آخر"
   },
   "sectionCode": {
-    "message": "الرمز"
+    "message": "الكود"
   },
   "sectionRemove": {
     "message": "إزالة القسم"
   },
+  "sectionRestore": {
+    "message": "استعادة القسم المحذوف"
+  },
+  "sectionUserCSS": {
+    "message": "المحرر الكلاسيكي متعدد الأقسام لا يدعم صيغة UserCSS. لاستخدامها، فعّل خانة \"UserCSS\" أولًا في المدير أو النافذة المنبثقة، ثم أنشئ نمطًا جديدًا، ثم انسخ الكود الحالي بالنقر على زر التصدير في هذا المحرر."
+  },
   "sections": {
     "message": "الأقسام"
   },
+  "settings": {
+    "message": "الإعدادات"
+  },
+  "shortcuts": {
+    "message": "الاختصارات"
+  },
+  "shortcutsNote": {
+    "message": "تحديد اختصارات لوحة المفاتيح"
+  },
+  "shortcutsNoteFF": {
+    "message": "في Firefox 66+ يمكنك فتح واجهة الاختصارات المدمجة يدويًا:\n1) انقر بزر الماوس الأيمن على أيقونة Stylus في شريط الأدوات واختر 'إدارة'\n(بديلًا، افتح about:addons عبر القائمة الرئيسية أو Ctrl-Shift-A)،\n2) في الصفحة التي تفتح، انقر على رمز الترس في الزاوية العلوية اليمنى،\n3) اختر 'إدارة اختصارات الامتداد'.\nيمكنك أيضًا تخصيص الاختصارات هنا."
+  },
+  "sortDateNewestFirst": {
+    "message": "الأحدث أولًا"
+  },
+  "sortDateOldestFirst": {
+    "message": "الأقدم أولًا"
+  },
+  "sortLabel": {
+    "message": "اختر طريقة الفرز للأنماط المثبتة"
+  },
+  "sortLabelTitleAsc": {
+    "message": "العنوان تصاعديًا"
+  },
+  "sortLabelTitleDesc": {
+    "message": "العنوان تنازليًا"
+  },
+  "sortStylesHelp": {
+    "message": "اختر نوع الفرز للإدخالات المثبتة من قائمة الفرز. الإعداد الافتراضي يطبّق فرزًا تصاعديًا (أ إلى ي) على عناوين الإدخالات. الفرز ضمن مجموعة \"العنوان تنازليًا\" سيطبّق فرزًا تنازليًا (ي إلى أ) على العنوان.\nتوجد إعدادات مسبقة أخرى تسمح بفرز الإدخالات حسب معايير متعددة. فكّر في ذلك كفرز جدول يحتوي على أعمدة متعددة، وكل فئة في القائمة (بين علامتي الجمع) تمثل عمودًا أو مجموعة.\nمثال: إذا كان الإعداد \"مفعّل (أولًا) + العنوان\"، فسيتم فرز الإدخالات بحيث تكون جميع الإدخالات المفعّلة في أعلى القائمة، ثم يُطبّق فرز العنوان التصاعدي (أ إلى ي) على الإدخالات المفعّلة وغير المفعّلة بشكل منفصل."
+  },
+  "sortStylesHelpTitle": {
+    "message": "فرز المحتويات"
+  },
+  "styleBadRegexp": {
+    "message": "التعبير النمطي غير صالح."
+  },
+  "styleBeautify": {
+    "message": "تنسيق"
+  },
+  "styleBeautifyHint": {
+    "message": "تلميح: انقر بزر الماوس الأيمن على زر \"تنسيق\" أو استخدم اختصار لوحة المفاتيح المحدد أدناه للتنسيق دون عرض هذه اللوحة"
+  },
+  "styleBeautifyIndentConditional": {
+    "message": "مسافة @media، @supports"
+  },
+  "styleBeautifyPreserveNewlines": {
+    "message": "الحفاظ على الأسطر الجديدة"
+  },
   "styleCancelEditLabel": {
-    "message": "رجوع للإدارة"
+    "message": "العودة إلى مدير الأنماط"
   },
   "styleChangesNotSaved": {
-    "message": "لقد أجريت تغييرات على هذا النمط بدون حفظها."
+    "message": "لقد أجريت تغييرات على هذا النمط دون حفظها."
+  },
+  "styleEditor": {
+    "message": "محرر الأنماط"
   },
   "styleEnabledLabel": {
-    "message": "ممكّن"
+    "message": "مفعّل"
+  },
+  "styleFromMozillaFormatError": {
+    "message": "فشل الاستيراد من تنسيق Mozilla"
+  },
+  "styleFromMozillaFormatPrompt": {
+    "message": "الصق كود تنسيق Mozilla"
   },
   "styleInstall": {
-    "message": "هل تريد تثبيت '$stylename$' في Stylus؟",
+    "message": "تثبيت '$stylename$' في Stylus؟",
     "placeholders": {
       "stylename": {
         "content": "$1"
       }
     }
   },
+  "styleInstallFailed": {
+    "message": "فشل تثبيت نمط المستخدم!\n$error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "styleInstallOverwrite": {
+    "message": "'$stylename$' مثبت بالفعل. هل تريد استبداله؟\nالإصدار: $oldVersion$ ← $newVersion$",
+    "placeholders": {
+      "stylename": {
+        "content": "$1"
+      },
+      "oldVersion": {
+        "content": "$2"
+      },
+      "newVersion": {
+        "content": "$3"
+      }
+    }
+  },
+  "styleManager": {
+    "message": "مدير الأنماط"
+  },
   "styleMissingName": {
     "message": "أدخل اسمًا"
+  },
+  "styleMozillaFormatHeading": {
+    "message": "تنسيق Mozilla"
+  },
+  "styleName": {
+    "message": "اسم النمط"
+  },
+  "styleNotAppliedRegexpProblemTooltip": {
+    "message": "لم يتم تطبيق النمط بسبب استخدامه غير الصحيح لـ 'regexp()'"
+  },
+  "styleNotAppliedSchemeDark": {
+    "message": "هذا النمط يُطبّق فقط في الوضع الداكن"
+  },
+  "styleNotAppliedSchemeLight": {
+    "message": "هذا النمط يُطبّق فقط في الوضع الفاتح"
+  },
+  "styleRegexpInvalidExplanation": {
+    "message": "بعض قواعد 'regexp()' التي لم يمكن ترجمتها إطلاقًا."
+  },
+  "styleRegexpPartialExplanation": {
+    "message": "هذا النمط يستخدم تعبيرات نمطية مطابقة جزئيًا مخالفة لـ <a href='https://developer.mozilla.org/docs/Web/CSS/@document'>مواصفات CSS4 @document</a> التي تتطلب مطابقة عنوان URL كامل. لم يتم تطبيق أقسام CSS المتأثرة على الصفحة. من المحتمل أن يكون هذا النمط قد أُنشئ في Stylish-for-Chrome الذي يتحقق من قواعد 'regexp()' بشكل غير صحيح منذ الإصدار الأول (خلل معروف)."
+  },
+  "styleRegexpProblemTooltip": {
+    "message": "عدد الأقسام غير المطبقة بسبب الاستخدام غير الصحيح لـ 'regexp()'"
+  },
+  "styleRegexpTestFull": {
+    "message": "علامات التبويب المطابقة"
+  },
+  "styleRegexpTestInvalid": {
+    "message": "تم تخطي التعبيرات النمطية غير الصالحة"
+  },
+  "styleRegexpTestNone": {
+    "message": "لا توجد علامات تبويب مطابقة"
+  },
+  "styleRegexpTestNote": {
+    "message": "ملاحظة: استخدم شرطة مائلة واحدة \\ للهروب في حقل إدخال التعبير النمطي، والتي سيتم تحويلها تلقائيًا إلى \\\\ في كود النمط وفقًا للمواصفات الخاصة بالنصوص بين علامتي اقتباس في CSS."
+  },
+  "styleRegexpTestNoteStar": {
+    "message": "أضف <.*> في النهاية إذا كان النمط يجب أن يطابق كبادئة، مثال: <https?://(www\\.)?foo\\.com/(one|two).*>"
+  },
+  "styleRegexpTestPartial": {
+    "message": "غير مطابق بالكامل، لذا تم تخطيه"
+  },
+  "styleRegexpTestTitle": {
+    "message": "قائمة علامات التبويب المفتوحة المطابقة (انقر على العنوان لتركيز علامته)"
   },
   "styleSaveLabel": {
     "message": "حفظ"
   },
+  "styleSettings": {
+    "message": "إعدادات النمط"
+  },
   "styleToMozillaFormatHelp": {
-    "message": "يمكن استخدام تنسيق موزيلا للرمز باستخدام Stylus للمتصفح فايرفوكس ويمكن إرساله إلى userstyles.org."
+    "message": "يمكن إرسال تنسيق Mozilla للكود إلى userstyles.org واستخدامه مع Stylish الكلاسيكي لـ Firefox"
+  },
+  "styleToMozillaFormatTitle": {
+    "message": "النمط بتنسيق Mozilla"
+  },
+  "styleUpdate": {
+    "message": "هل أنت متأكد من أنك تريد تحديث '$stylename$'؟",
+    "placeholders": {
+      "stylename": {
+        "content": "$1"
+      }
+    }
+  },
+  "styleUpdateDiscardChanges": {
+    "message": "تم تغيير النمط خارج المحرر. هل تريد إعادة تحميل النمط؟"
+  },
+  "stylusUnavailableForURL": {
+    "message": "Stylus لا يعمل على صفحات كهذه."
+  },
+  "stylusUnavailableForURLdetails": {
+    "message": "كإجراء احترازي أمني، يمنع المتصفح الامتدادات من التأثير على صفحاته المدمجة (مثل chrome://version، صفحة علامة التبويب الجديدة القياسية بدءًا من Chrome 61، about:addons، إلخ) وكذلك صفحات الامتدادات الأخرى. كما يقيّد كل متصفح الوصول إلى متجره الخاص (مثل Chrome Web Store أو AMO)."
+  },
+  "styleUpdateUrlLabel": {
+    "message": "عنوان التحديث"
+  },
+  "stylePreferSchemeLabel": {
+    "message": "الوضع الداكن/الفااتح"
+  },
+  "styleIncludeLabel": {
+    "message": "المواقع المضمنة المخصصة"
+  },
+  "styleInjectionImportance": {
+    "message": "تبديل أولوية النمط"
+  },
+  "styleInjectionOrder": {
+    "message": "ترتيب حقن النمط"
+  },
+  "styleInjectionOrderHint": {
+    "message": "اسحب النمط وأفلته لتغيير موضعه. يتم حقن الأنماط بالتسلسل حسب الترتيب الموضح أدناه، لذا يمكن للنمط الموجود لاحقًا في القائمة تجاوز الأنماط السابقة."
+  },
+  "styleInjectionOrderHint_prio": {
+    "message": "الأنماط المهمة المدرجة أدناه يتم حقنها دائمًا أخيرًا، لذا يمكنها تجاوز أي أنماط مثبتة حديثًا. انقر على علامة النمط لتبديل أولويته."
+  },
+  "styleExcludeLabel": {
+    "message": "المواقع المستبعدة المخصصة"
+  },
+  "syncError": {
+    "message": "فشل المزامنة"
+  },
+  "syncErrorRelogin": {
+    "message": "فشل المزامنة. حاول تسجيل الدخول مجددًا في إعدادات Stylus."
+  },
+  "syncErrorLock": {
+    "message": "قاعدة البيانات قيد الاستخدام بالفعل. ستنتهي مدة القفل عند $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "syncStorageErrorSaving": {
+    "message": "لا يمكن حفظ القيمة. حاول تقليل كمية النص."
+  },
+  "toggleStyle": {
+    "message": "تبديل النمط"
+  },
+  "undo": {
+    "message": "تراجع"
+  },
+  "undoGlobal": {
+    "message": "تراجع في جميع الأقسام"
+  },
+  "unreachableAMO": {
+    "message": "يمنع Firefox الوصول إلى الموقع."
+  },
+  "unreachableAMOHint": {
+    "message": "للسماح بالوصول، افتح <about:config>، انقر بزر الماوس الأيمن على القائمة، انقر 'جديد'، ثم 'قيمة منطقية'، الصق <privacy.resistFingerprinting.block_mozAddonManager> وانقر موافق، <صحيح>، موافق، أعد تحميل صفحة <addons.mozilla.org>."
+  },
+  "unreachableContentScript": {
+    "message": "تعذر الاتصال بالصفحة. حاول إعادة تحميل العلامة."
+  },
+  "unreachableCSP": {
+    "message": "جرّب تفعيل \"تعديل CSP\" في إعدادات Stylus."
+  },
+  "unreachableFileHint": {
+    "message": "يمكن لـ Stylus الوصول إلى عناوين file:// فقط إذا فعّلت خانة الاختيار المقابلة لامتداد Stylus في صفحة chrome://extensions."
+  },
+  "unreachableMozSiteHint": {
+    "message": "في Firefox 60 والإصدارات الأحدث، تحتاج إلى إزالة هذا النطاق من <extensions.webextensions.restrictedDomains> في <about:config>."
+  },
+  "unreachableMozSiteHintOldFF": {
+    "message": "فقط Firefox 59 والإصدارات الأحدث يمكن تكوينها للسماح لامتدادات الويب بإضافة عناصر نمط على المواقع المحمية بـ CSP مثل هذه."
+  },
+  "unzipStyles": {
+    "message": "جارٍ فك ضغط الأنماط..."
+  },
+  "updateAllCheckSucceededNoUpdate": {
+    "message": "لم يتم العثور على تحديثات."
+  },
+  "updateAllCheckSucceededSomeEdited": {
+    "message": "لم يتم التحقق من بعض الأنماط القابلة للتحديث لتجنب فقدان التعديلات المحلية المحتملة. يمكن فرض التحديثات بالتحقق من كل نمط على حدة، أو بإجراء فحص آخر لجميع الأنماط (سيتم استبدال التعديلات المحلية)."
   },
   "updateCheckFailBadResponseCode": {
-    "message": "أخفق التحديث - استجاب الخادم بالرمز $code$",
+    "message": "فشل التحديث: استجاب الخادم بالكود $code$.",
     "placeholders": {
       "code": {
         "content": "$1"
@@ -167,12 +1546,68 @@
     }
   },
   "updateCheckFailServerUnreachable": {
-    "message": "أخفق التحديث - الخادم يتعذر الوصول إليه."
+    "message": "فشل التحديث: الخادم غير قابل للوصول."
+  },
+  "updateCheckHistory": {
+    "message": "سجل فحوصات التحديث"
+  },
+  "updateCheckManualUpdateForce": {
+    "message": "تثبيت التحديث (سيتم استبدال التعديلات المحلية)"
+  },
+  "updateCheckManualUpdateHint": {
+    "message": "سيؤدي فرض التحديث إلى استبدال أي تعديلات محلية."
+  },
+  "updateCheckSkippedLocallyEdited": {
+    "message": "تم تعديل هذا النمط محليًا."
+  },
+  "updateCheckSkippedMaybeLocallyEdited": {
+    "message": "قد يكون هذا النمط قد عُدّل محليًا."
   },
   "updateCheckSucceededNoUpdate": {
     "message": "النمط محدّث."
   },
   "updateCompleted": {
     "message": "اكتمل التحديث."
+  },
+  "updatesCurrentlyInstalled": {
+    "message": "التحديثات المثبتة:"
+  },
+  "uploadingFile": {
+    "message": "جارٍ رفع الملف..."
+  },
+  "usercssAvoidOverwriting": {
+    "message": "يرجى تغيير قيمة @name أو @namespace لتجنب استبدال نمط موجود."
+  },
+  "usercssConfigIncomplete": {
+    "message": "تم تحديث النمط أو حذفه بعد عرض مربع حوار الإعداد. لم يتم حفظ هذه المتغيرات لتجنب إتلاف بيانات تعريف النمط:"
+  },
+  "usercssEditorNamePlaceholder": {
+    "message": "حدد @name في الكود"
+  },
+  "usercssReplaceTemplateConfirmation": {
+    "message": "هل تريد استبدال القالب الافتراضي لأنماط UserCSS الجديدة بالكود الحالي؟"
+  },
+  "usercssReplaceTemplateSectionBody": {
+    "message": "أدخل الكود هنا..."
+  },
+  "versionInvalidOlder": {
+    "message": "الإصدار أقدم من النمط المثبت."
+  },
+  "webRequestBlockingMV3Note": {
+    "message": "يتطلب إذن webRequestBlocking الذي يمكن تفعيله في ManifestV3 باستخدام إحدى الطريقتين:\n 1) صدّر النسخة الاحتياطية، أنشئ سياسة <a href='https://chromeenterprise.google/policies/?policy=ExtensionInstallForcelist'>ExtensionInstallForcelist</a> لهذا الامتداد باستخدام معرّفه \"$id$\"، أعد تشغيل المتصفح، انتظر تثبيت الامتداد، استورد النسخة الاحتياطية في مدير الأنماط، وثبّت الأيقونة في شريط الأدوات اختياريًا.\n 2) عدّل سطر الأوامر في أيقونة المتصفح أو المشغّل: أضف مسافة و <code><nobr>--allowlisted-extension-id=$id$</nobr></code>",
+    "placeholders": {
+      "id": {
+        "content": "$1"
+      }
+    }
+  },
+  "writeStyleFor": {
+    "message": "كتابة نمط لـ: "
+  },
+  "writeStyleForURL": {
+    "message": "هذا العنوان"
+  },
+  "zipStyles": {
+    "message": "جارٍ ضغط الأنماط..."
   }
 }
